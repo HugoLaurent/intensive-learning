@@ -1,0 +1,104 @@
+.main-container {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.glassmorphism {
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  gap: 200px;
+  min-width: 90%;
+  height: 90vh;
+  margin: 0 auto;
+}
+
+.glassmorphism > article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.background-gradient {
+  background: linear-gradient(to bottom, #b298f5 0%, #ff4d87 50%, #f3ba48 100%);
+  border-radius: 10px;
+  flex: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4em 3em;
+  width: 60%;
+}
+
+.login-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba (0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.brand-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.logo {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.brand-name {
+  text-align: center;
+  display: block;
+}
+
+.intense {
+  color: #ff4d87;
+}
+
+.learning {
+  color: #b298f5;
+}
+
+.intense,
+.learning {
+  font-weight: bold;
+  font-size: 0.8em;
+  display: block;
+}
+
+img,
+video {
+  max-width: 50%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* @media (min-width: 600px) {
+  .glassmorphism {
+    min-width: 400px;
+  }
+}
+
+@media (min-width: 900px) {
+  .glassmorphism {
+    min-width: 800px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .glassmorphism {
+    min-width: 1000px;
+  }
+} */
